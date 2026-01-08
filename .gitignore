@@ -19,3 +19,10 @@ data/processed/
 
 # OS
 .DS_Store
+
+# Large datasets
+data/raw/hi_train.tsv
+data/raw/hi_valid.tsv
+data/raw/hi_test.tsv
+data/raw/hin/
+
