@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.env
+.venv
+venv/
+
+# ML artifacts
+models/*.pt
+models/*.pth
+
+# Data
+data/processed/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
