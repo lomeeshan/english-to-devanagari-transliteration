@@ -115,8 +115,7 @@ The model is trained primarily on word-level transliteration pairs. Sentence-lev
 
 ---
 
-## Conclusion
-This project fulfills the assignment requirements by implementing a complete English (Roman script) to Devanagari transliteration system using real-world data, a sequence-to-sequence neural network, and a clean Python-based training and inference pipeline.
+
 
 
 
