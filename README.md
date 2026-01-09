@@ -76,6 +76,20 @@ Character-level modeling enables generalization to unseen words.
 
 ---
 
+## Setup Instructions
+1. Clone the repository:
+   git clone
+   cd english-to-devanagari-transliteration
+
+2. Create and activate a virtual environment:
+   python3 -m venv venv
+   source venv/bin/activate
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+---
+
 ## Training
 To train the model, run:
 python src/train.py
@@ -88,10 +102,6 @@ The training script loads data, builds vocabularies, trains the model, and saves
 To transliterate a romanized input:
 python src/infer.py namaste
 
-Example output:
-नमस्ते
-
----
 
 ## Notes on Sentence-Level Inputs
 The model is trained primarily on word-level transliteration pairs. Sentence-level inputs containing spaces or punctuation may require additional preprocessing and were kept out of scope to focus on the core assignment requirements.
@@ -104,5 +114,9 @@ The model is trained primarily on word-level transliteration pairs. Sentence-lev
 - Future improvements include attention mechanisms, beam search, and Transformer-based models
 
 ---
+
+## Conclusion
+This project fulfills the assignment requirements by implementing a complete English (Roman script) to Devanagari transliteration system using real-world data, a sequence-to-sequence neural network, and a clean Python-based training and inference pipeline.
+
 
 
